@@ -1,0 +1,37 @@
+body {
+ background-image:url('https://cdn.hipwallpaper.com/i/34/32/opgTvR.jpg');
+ background-size: auto 100vh ; 
+ font-family: Helvetica; 
+  height: 100vh;
+  
+}
+.menu {
+ 
+ background-color: white;
+}
+.menu ul {
+  display: Flex;
+  justify-content: space-around;
+}
+.menu li {
+list-style: none;
+  }
+
+a {
+  color:#FFA07A;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;1
+}
+
+.site-subtitle,
+.site-title {
+  text-align: center;
+  color:#F08080;
+}
+.site-subtitle {
+  font-style: italic;
+  
+}
