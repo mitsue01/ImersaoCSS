@@ -5,19 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitsue</title>
    <link rel="stylesheet" href="css/estilos.css">
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/4ec3453c16.js" crossorigin="anonymous">
+  </script>
 </head>
-<body>
+<body> 
     <header>
         <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
+          <ul class="container">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
-        <h1 class="site-title">Mitsue K Shimogaki </h1>
+        <div class="titulo">
+          
+        <h1 class="site-title">Mitsue Shimogaki </h1>
         <h2 class="site-subtitle">Aprendendo CSS e HTML </h2>
+      </div>
       </header>
+      <section class="sobre container">
+        <h2>Sobre</h2>
+        <figure class="mpic">
+          <img src="https://pbs.twimg.com/profile_images/1102702030471213056/0GVOn8k7_400x400.jpg" alt="Mitsue Shimogaki">
+        </figure>
+        <p>Meus projetos de quarentena, não que são muito diferentes dos dias normais</p>
+        <p></p>
+        <p>A maioria deles envolve a minha avó (me desculpa vó)e as plantas que ela cultiva. Quanto as fotos antigas com toda certeza valeram minhas centenas de espirros. </p>
+        <p></p>
+        <p>Nunca coloque as mãos sem cuidado nas flores ou em qualquer parte de uma ora-pro-nóbis, elas te furam sem dó. </p>
+        <p>Este site foi criado durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+        </p>
+      </section>
+
+  
+      <section class="portfolio container" id="projetos">
+        <h2>Projetos de Quarentena</h2>
+        <div class="grid">
+         
+          <div class="flip-card">
+          <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/espinhenta.jpg" alt="Foto de flor">
+            <figcaption>Fotos de quintal</figcaption>
+          </figure>
+          <div class="card-back">
+            Aquela planta medicina que tenta te matar primeiro 
+          </div>
+          </div>
+          </div>
+
+          <div class="flip-card">
+          <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/livro.jpg" alt=">livro ">
+            <figcaption>Aprendendo coisas novas</figcaption>
+          </figure>
+          <div class="card-back"> 
+            Não terminei ainda, mas até agora é muito bom 
+          </div>
+        </div>
+          </div>
+          <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/expc.jpg" alt="Geleia de Ume">
+            <figcaption>Exeriências culinárias</figcaption>
+          </figure>
+          <div class="card-back"> 
+            Super azeda, é gostosa, deixa a lingua estranha
+            </div>
+          </div>
+          </div>
+          <div class="flip-card">
+          <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img/ftsantigas.jpg" alt="Fotos Antigas">
+            <figcaption>Desenterrando fotos antigas</figcaption>
+          </figure>
+          <div class="card-back">
+            Valeu meus espirros
+          </div>
+          </div>
+          </div>
+        </section>
+
+        <section class="contato container" id="contato">
+          <h2>Contato</h2>
+          <div class="grid icons">
+            <a target="_blank" href="https://github.com/mitsue01">
+              <i class="fab fa-github-alt"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/MShimogaki?s=09i">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/mitsue_shimogaki/?hl=pt-br">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:mitsueshimogaki@gmail.com">
+              <i class="far fa-envelope"></i>
+            </a>
+
+        </div>
+        
+      </section>
+         
 </body>
 </html>
 
